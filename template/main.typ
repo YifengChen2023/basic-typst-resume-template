@@ -28,7 +28,7 @@
   degree: "Master of Science in Applied Computing, AI Concentration, GPA: 4.0/4.0",
   gpa: "4.0/4.0",
 )
-- Relevant Courseworks: Advanced ML: Generative AI, Advanced ML: Large Models, Neural Networks and Deep Learning
+- Relevant Coursework: Advanced ML: Generative AI, Advanced ML: Large Models, Neural Networks and Deep Learning
 
 #edu(
   institution: "Beihang University",
@@ -37,7 +37,7 @@
   degree: "Bachelor of Engineering in Artificial Intelligence, GPA: 3.87/4.0",
   gpa: "3.87/4.0",
 )
-- Relevant Courseworks: Knowledge Graph, Machine Learning, Computer Vision, Reinforcement Learning, Data Mining
+- Relevant Coursework: Knowledge Graph, Machine Learning, Computer Vision, Reinforcement Learning, Data Mining
 
 == Technical Skills
 - *Programming*: Python, C, C\#, SQL
@@ -73,22 +73,22 @@
 - AI-orchestrated Software Development Lifecycle pipeline | Python, Claude Code, GitLab, Jira, Google Workspace
  - Co-developed Cody, an internal Claude Code plugin that automates full SDLC from chat threads to merge request.
  - Integrated with Jira, GitLab, Google Workspace APIs to gather and understand work context and progress.
- - Ensured reliable behavior by prompt engineering, checkpoints-resume patterns and hook-based quality gates.
- - Reduced team manual overhead of ticket and requirement management, letting developers focus on high judgement work.
+ - Ensured reliable behavior through prompt engineering, checkpoint and resume patterns, and hook-based quality gates.
+ - Reduced the manual overhead of ticket and requirement management, letting developers focus on high-judgment work.
 
 
 #work(
   title: "Data/AI Platform Developer, Co-op Full-Time",
-  company: "Geotab",
+  company: "Geotab, University of Toronto",
   location: "Toronto, ON",
   dates: dates-helper(start-date: "May 2025", end-date: "Dec 2025"),
 )
 
 - AI-powered GKE cost optimization agent | Python, LangGraph, GCP, Kubernetes
   - Built a multi-agent AI system using LangGraph to autonomously analyze and right-size k8s deployments, reducing cloud resource waste across GKE clusters while preserving service availability.
-  - Designed a planner-revisor-actor pipeline grounded with past comsumption data to iterate several deployment plans until human approval.
+  - Designed a planner-revisor-actor pipeline grounded with past consumption data to iterate several deployment plans until human approval.
   - Implemented memory architecture based on ChromaDB enabling agents to learn from past and evolve over time.
-  - Evaluations demonstrated better tradeoff cost and stability to that of human operators.
+  - Evaluations showed a better cost–stability trade-off than human operators.
 /*
 - Internal AI assistant Google Chat bot serving Q\&A support | Python, Cloud Functions, Vertex AI RAG Engine
   - Provided document-grounded technical support across whole engineering department, saving onboarding time for AI adoption.
@@ -100,7 +100,7 @@
   company: "University of Toronto",
   dates: dates-helper(start-date: "Sep 2024", end-date: "Apr 2025"),
 )
-- Data science weekly tutorials | Python, Pytorch, scikit-learn, jupyter, Pandas
+- Data science weekly tutorials | Python, PyTorch, scikit-learn, Jupyter, Pandas
   - Designed Python and data science notebooks and tutorials for non-CS undergraduates. 
   - Explained statistical analysis and data-driven decision-making to technical and nontechnical audiences.
 */
