@@ -18,11 +18,6 @@
   author-position: left,
   personal-info-position: left,
 )
-== Technical Skills
-- *Programming*: Python, C, C\#, SQL
-- *Tooling*: PyTorch, scikit-learn, Pandas, Jupyter, .NET, LangGraph, RAG, Git, Jira, Bitbucket
-- *Cloud*: Google Cloud Platform: Google Kubernetes Engine, AWS: Lambda
-- *MLOps & Infrastructure*: Kubernetes, Docker, GitLab CI/CD
 
 == Education
 
@@ -44,6 +39,12 @@
 )
 - Relevant Courseworks: Knowledge Graph, Machine Learning, Computer Vision, Reinforcement Learning, Data Mining
 
+== Technical Skills
+- *Programming*: Python, C, C\#, SQL
+- *Tooling*: PyTorch, scikit-learn, Pandas, Jupyter, .NET, LangGraph, RAG, Git, Jira, Bitbucket
+- *Cloud*: Google Cloud Platform: Google Kubernetes Engine, AWS: Lambda
+- *MLOps & Infrastructure*: Kubernetes, Docker, GitLab CI/CD
+
 == Professional Experience
 
 #work(
@@ -53,7 +54,9 @@
   dates: dates-helper(start-date: "Aug 2026", end-date: "Oct 2026"),
 )
 - Pricing service/UI development and refactoring | C\#, SQL, .NET, AWS Lambda
+/*
   - Developed an end-to-end billing curve selection frontend and SQL database integration, enabling users to override default settings and generate customized, accurate client quotes.
+*/
   - Designed a unified computation engine to process usage, loss, and price calculations per account, simplifying calculation logic and streamlining maintenance for high-frequency configuration edits.
 
 
@@ -66,7 +69,7 @@
 - Automated code review service in CI | Shell, Docker, GitLab CI/CD, Claude Code
   - Integrated Claude Code in GitLab CI with specialized review agents to enforce coding standards with inline comments on every merge request.
   - Built CI template for easy cross-repo adoption and dockerized the pipeline to cut review service startup time.
-  - Automated code review across multiple engineering teams, catching bugs before human reviewers, with high acceptance rate from engineers
+  - Automated code review across multiple engineering teams, catching bugs before human reviewers.
 - AI-orchestrated Software Development Lifecycle pipeline | Python, Claude Code, GitLab, Jira, Google Workspace
  - Co-developed Cody, an internal Claude Code plugin that automates full SDLC from chat threads to merge request.
  - Integrated with Jira, GitLab, Google Workspace APIs to gather and understand work context and progress.
@@ -82,9 +85,9 @@
 )
 
 - AI-powered GKE cost optimization agent | Python, LangGraph, GCP, Kubernetes
-  - Built a multi-agent AI system using LangGraph to autonomously analyze and right-size k8s deployments, reducing cloud resource waste across GKE clusters.
-  - Designed a planner-revisor-actor pipeline grounded with past comsumption data to iterate new deployment plan until human approval.
-  - Implemented memory architecture based on ChromaDB with retrieval enabling agents to learn from past and evolve over time.
+  - Built a multi-agent AI system using LangGraph to autonomously analyze and right-size k8s deployments, reducing cloud resource waste across GKE clusters while preserving service availability.
+  - Designed a planner-revisor-actor pipeline grounded with past comsumption data to iterate several deployment plans until human approval.
+  - Implemented memory architecture based on ChromaDB enabling agents to learn from past and evolve over time.
   - Evaluations demonstrated better tradeoff cost and stability to that of human operators.
 /*
 - Internal AI assistant Google Chat bot serving Q\&A support | Python, Cloud Functions, Vertex AI RAG Engine
